@@ -57,12 +57,12 @@ stdenv.mkDerivation rec {
       "/usr/share/sounds/sf3/default-GM.sf3" \
       "${soundfont-fluid}/share/soundfonts/FluidR3_GM2-2.sf2"
   '';
-  
+
   meta = with lib; {
     homepage = "https://github.com/kraflab/dsda-doom";
     description = "This is a successor of prboom+ with extra tooling for demo recording and playback, with a focus on speedrunning and quality of life.";
     license = licenses.gpl2Plus;
     platforms = platforms.linux;
-    maintainers = [ maintainers.QuoteNat ];
+    #maintainers = [ maintainers.QuoteNat ];
   };
 }
